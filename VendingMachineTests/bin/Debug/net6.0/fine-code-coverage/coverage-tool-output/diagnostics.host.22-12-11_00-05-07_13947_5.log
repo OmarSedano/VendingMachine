@@ -1,0 +1,1123 @@
+TpTrace Verbose: 0 : 17844, 1, 2022/12/11, 00:05:07.348, 174060093023, testhost.dll, Version: 16.11.0
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.355, 174060134736, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 58386],[--endpoint, 127.0.0.1:058386],[--role, client],[--parentprocessid, 28556],[--diag, C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.host.22-12-11_00-05-07_13947_5.log],[--tracelevel, 4],[--datacollectionport, 58385],[--telemetryoptedin, false]
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.356, 174060145933, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 17844, 1, 2022/12/11, 00:05:07.356, 174060147468, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 17844, 1, 2022/12/11, 00:05:07.356, 174060147826, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.357, 174060163047, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '28556'
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.365, 174060241398, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:058386'
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.378, 174060371716, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:058386
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.384, 174060431180, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 58385
+TpTrace Information: 0 : 17844, 10, 2022/12/11, 00:05:07.385, 174060443249, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:058386
+TpTrace Verbose: 0 : 17844, 10, 2022/12/11, 00:05:07.387, 174060457444, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.387, 174060463177, testhost.dll, Trying to connect to server on socket : 127.0.0.1:58385 
+TpTrace Verbose: 0 : 17844, 1, 2022/12/11, 00:05:07.388, 174060465414, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 17844, 10, 2022/12/11, 00:05:07.389, 174060476470, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 17844, 10, 2022/12/11, 00:05:07.389, 174060477261, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:07.389, 174060480304, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.389, 174060482077, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.390, 174060484591, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 12, 2022/12/11, 00:05:07.390, 174060486568, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:07.482, 174061407647, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.504, 174061624054, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-12-11_00-05-07_13947_5.log"}}
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.504, 174061626033, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.504, 174061627348, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:07.507, 174061663141, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\NUnit3.TestAdapter.dll"
+]
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.513, 174061716286, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.513, 174061717392, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.513, 174061719768, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.Initialize'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.515, 174061735054, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:07.515, 174061737875, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\VendingMachineTests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.201\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.516, 174061749284, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.517, 174061757021, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.517, 174061760693, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.517, 174061761151, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.518, 174061773656, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.520, 174061793389, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.521, 174061794433, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.521, 174061794756, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.521, 174061794992, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.521, 174061795600, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.521, 174061803119, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.526, 174061846228, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.526, 174061847133, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Searching in: 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.527, 174061859355, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Loading assembly 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.528, 174061872795, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: NUnit3.TestAdapter, from path: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:07.533, 174061916791, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.538, 174061971114, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.538, 174061971875, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Searching in: 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.539, 174061975830, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Loading assembly 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\nunit.engine.api.dll'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.540, 174061985022, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.api, from path: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\nunit.engine.api.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062026828, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062030055, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062030611, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062030972, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062031266, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.544, 174062031545, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.546, 174062049985, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.546, 174062051541, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.546, 174062052138, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.546, 174062052339, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062054422, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062054844, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062055064, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062055242, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062055422, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062055665, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062055984, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062057671, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062058032, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062058240, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062058584, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062059292, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.547, 174062059611, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.550, 174062089598, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.550, 174062092282, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.550, 174062092664, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062099119, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062100063, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062100346, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062100512, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062101673, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062102184, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062102396, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062102556, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062102714, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062102881, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.551, 174062103146, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062104933, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062105266, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062105454, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062105635, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062105920, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062106861, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062112156, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.552, 174062112526, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.553, 174062116109, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.StartWithSources'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.613, 174062719369, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\VendingMachineTests.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.615, 174062740895, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.615, 174062741828, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.615, 174062742111, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.615, 174062742346, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062744060, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062744410, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062744681, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062744860, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062745036, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062745222, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.616, 174062745667, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.617, 174062763764, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.618, 174062764361, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.618, 174062764588, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.618, 174062764773, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.618, 174062765053, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.618, 174062765251, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.626, 174062845826, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\VendingMachineTests.dll'
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.631, 174062895253, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.634, 174062930054, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Resolving assembly.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.634, 174062931147, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Searching in: 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.635, 174062936006, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Loading assembly 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\nunit.engine.core.dll'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.636, 174062947540, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.core, from path: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\nunit.engine.core.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.643, 174063017135, testhost.dll, NUnit Adapter 4.0.0.0: Test execution started
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.643, 174063018315, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 4.0.0.0: Test execution started"}}
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.667, 174063255403, testhost.dll, Running all tests in C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\VendingMachineTests.dll
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.667, 174063257278, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Running all tests in C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\VendingMachineTests.dll"}}
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.674, 174063327883, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Resolving assembly.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.674, 174063329143, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Searching in: 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.675, 174063334633, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Loading assembly 'C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\testcentric.engine.metadata.dll'.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.676, 174063345787, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: testcentric.engine.metadata, from path: C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\bin\Debug\fine-code-coverage-net6.0\testcentric.engine.metadata.dll
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:07.809, 174064678903, testhost.dll,    NUnit3TestExecutor discovered 3 of 3 NUnit test cases using Current Discovery mode, Non-Explicit run
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:07.809, 174064680264, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"   NUnit3TestExecutor discovered 3 of 3 NUnit test cases using Current Discovery mode, Non-Explicit run"}}
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:07.830, 174064884920, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: VendingMachineTests.Tests.CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty.
+TpTrace Information: 0 : 17844, 14, 2022/12/11, 00:05:08.042, 174067012869, testhost.dll, 00:05:07:891 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp
+00:05:07:899 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp
+00:05:07:900 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow
+00:05:07:914 [Verbose]: Executing command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineAggregate'
+00:05:07:918 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'
+00:05:07:948 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'
+00:05:07:971 [Verbose]: Committing event 
+VendingMachineAggregate v1 ==================================
+{
+  "timestamp": "2022-12-11T00:05:07.9456496+01:00",
+  "aggregate_sequence_number": "1",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc",
+  "event_id": "event-492aa541-9f4b-5cd3-9455-f5b5c54c276c",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "15cf62a3-eb0a-4ea4-bcdd-1f1610bcb0b8",
+  "source_id": "command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47",
+  "event_name": "InitializedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Tea",
+      "Price": 1.3,
+      "Quantity": 10
+    },
+    {
+      "Id": 2,
+      "Name": "Espresso",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 3,
+      "Name": "Juice",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 4,
+      "Name": "Chicken soup",
+      "Price": 1.8,
+      "Quantity": 15
+    }
+  ],
+  "WalletCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 100
+    }
+  ],
+  "InsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:07:978 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,049 seconds
+00:05:07:982 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc
+00:05:07:987 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 0 (or none), applying events
+00:05:07:990 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'
+00:05:08:001 [Debug]: Didn't find any subscribers to 'InitializedEvent'
+00:05:08:005 [Verbose]: Saga types to process for domain event 'InitializedEvent': 
+00:05:08:006 [Verbose]: Execution command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True
+00:05:08:011 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineAggregate'
+00:05:08:011 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'
+00:05:08:014 [Verbose]: Upgrading 1 events and found these event upgraders to use: 
+00:05:08:015 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'
+00:05:08:016 [Verbose]: Committing event 
+VendingMachineAggregate v2 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0155976+01:00",
+  "aggregate_sequence_number": "2",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc",
+  "event_id": "event-0e858500-d9eb-50f2-876b-8e08940fd488",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "a1da0291-57d7-4e3c-a578-ea813a8f0765",
+  "source_id": "command-3064dd27-baa2-4fa1-9f73-a60f32724142",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "Cent50",
+    "value": 0.5
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:017 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,005 seconds
+00:05:08:017 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc
+00:05:08:017 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 1 (or none), applying events
+00:05:08:017 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:017 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:017 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:017 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineAggregate'
+00:05:08:017 [Verbose]: Upgrading 2 events and found these event upgraders to use: 
+00:05:08:018 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'
+00:05:08:018 [Verbose]: Committing event 
+VendingMachineAggregate v3 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0180436+01:00",
+  "aggregate_sequence_number": "3",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc",
+  "event_id": "event-e6d43a52-c97c-563e-ac6b-e631daaed841",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "ce829d88-7eb3-4e73-b6f2-b63ae94c49ec",
+  "source_id": "command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "OneEuro",
+    "value": 1.0
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 1
+    }
+  ]
+}
+---------------------------------
+00:05:08:018 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:018 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc
+00:05:08:018 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 2 (or none), applying events
+00:05:08:018 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:018 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:018 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:018 [Verbose]: Executing command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineAggregate'
+00:05:08:018 [Verbose]: Command 'CancelPurchaseCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,CancelPurchaseCommand>'
+00:05:08:018 [Verbose]: Upgrading 3 events and found these event upgraders to use: 
+00:05:08:019 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'
+00:05:08:019 [Verbose]: Committing event 
+VendingMachineAggregate v4 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0190701+01:00",
+  "aggregate_sequence_number": "4",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc",
+  "event_id": "event-ed569e6f-75a5-5252-a261-d4790cb2bc0b",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "f0ef2a0b-5362-4bf4-8815-b1402bd7c04e",
+  "source_id": "command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf",
+  "event_name": "PurchaseCanceledEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:019 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds
+00:05:08:019 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/PurchaseCanceledEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc
+00:05:08:019 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 3 (or none), applying events
+00:05:08:020 [Debug]: Didn't find any subscribers to 'PurchaseCanceledEvent'
+00:05:08:020 [Verbose]: Saga types to process for domain event 'PurchaseCanceledEvent': 
+00:05:08:020 [Verbose]: Execution command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: PurchaseCanceledEvent, was success: True
+00:05:08:023 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'
+00:05:08:024 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'
+
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.043, 174067015524, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"00:05:07:891 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:07:899 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:07:900 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:07:914 [Verbose]: Executing command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineAggregate'\r\n00:05:07:918 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:07:948 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:07:971 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:07.9456496+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-492aa541-9f4b-5cd3-9455-f5b5c54c276c\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"15cf62a3-eb0a-4ea4-bcdd-1f1610bcb0b8\",\r\n  \"source_id\": \"command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:07:978 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,049 seconds\r\n00:05:07:982 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:07:987 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 0 (or none), applying events\r\n00:05:07:990 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:001 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:005 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:006 [Verbose]: Execution command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:011 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineAggregate'\r\n00:05:08:011 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:014 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:015 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:016 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0155976+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-0e858500-d9eb-50f2-876b-8e08940fd488\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"a1da0291-57d7-4e3c-a578-ea813a8f0765\",\r\n  \"source_id\": \"command-3064dd27-baa2-4fa1-9f73-a60f32724142\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:017 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,005 seconds\r\n00:05:08:017 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:017 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 1 (or none), applying events\r\n00:05:08:017 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:017 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:017 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:017 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineAggregate'\r\n00:05:08:017 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:018 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:018 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0180436+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-e6d43a52-c97c-563e-ac6b-e631daaed841\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"ce829d88-7eb3-4e73-b6f2-b63ae94c49ec\",\r\n  \"source_id\": \"command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:018 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:018 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:018 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 2 (or none), applying events\r\n00:05:08:018 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:018 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:018 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:018 [Verbose]: Executing command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineAggregate'\r\n00:05:08:018 [Verbose]: Command 'CancelPurchaseCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,CancelPurchaseCommand>'\r\n00:05:08:018 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:019 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:019 [Verbose]: Committing event \r\nVendingMachineAggregate v4 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0190701+01:00\",\r\n  \"aggregate_sequence_number\": \"4\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-ed569e6f-75a5-5252-a261-d4790cb2bc0b\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"f0ef2a0b-5362-4bf4-8815-b1402bd7c04e\",\r\n  \"source_id\": \"command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf\",\r\n  \"event_name\": \"PurchaseCanceledEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:019 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds\r\n00:05:08:019 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/PurchaseCanceledEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:019 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 3 (or none), applying events\r\n00:05:08:020 [Debug]: Didn't find any subscribers to 'PurchaseCanceledEvent'\r\n00:05:08:020 [Verbose]: Saga types to process for domain event 'PurchaseCanceledEvent': \r\n00:05:08:020 [Verbose]: Execution command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: PurchaseCanceledEvent, was success: True\r\n00:05:08:023 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'\r\n00:05:08:024 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'\r\n"}}
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.043, 174067018985, testhost.dll, TestExecutionRecorder.RecordEnd: test: VendingMachineTests.Tests.CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty execution completed.
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.054, 174067125304, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: VendingMachineTests.Tests.CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty.
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.057, 174067162854, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.058, 174067164085, testhost.dll, TestRunCache: No test found corresponding to testResult 'CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty' in inProgress list.
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.058, 174067165211, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: VendingMachineTests.Tests.SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated.
+TpTrace Information: 0 : 17844, 14, 2022/12/11, 00:05:08.060, 174067183965, testhost.dll, 00:05:08:033 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp
+00:05:08:033 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp
+00:05:08:033 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow
+00:05:08:033 [Verbose]: Executing command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineAggregate'
+00:05:08:033 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'
+00:05:08:034 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'
+00:05:08:034 [Verbose]: Committing event 
+VendingMachineAggregate v1 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0340664+01:00",
+  "aggregate_sequence_number": "1",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9",
+  "event_id": "event-a970a7a2-e7a0-5c7c-893a-05b7c69cda89",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "53389526-288e-494a-afed-2063096b956d",
+  "source_id": "command-494c7764-0573-4cb7-9cf9-250be00df317",
+  "event_name": "InitializedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Tea",
+      "Price": 1.3,
+      "Quantity": 10
+    },
+    {
+      "Id": 2,
+      "Name": "Espresso",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 3,
+      "Name": "Juice",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 4,
+      "Name": "Chicken soup",
+      "Price": 1.8,
+      "Quantity": 15
+    }
+  ],
+  "WalletCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 100
+    }
+  ],
+  "InsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:034 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:034 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9
+00:05:08:034 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 0 (or none), applying events
+00:05:08:034 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'
+00:05:08:034 [Debug]: Didn't find any subscribers to 'InitializedEvent'
+00:05:08:034 [Verbose]: Saga types to process for domain event 'InitializedEvent': 
+00:05:08:034 [Verbose]: Execution command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True
+00:05:08:034 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineAggregate'
+00:05:08:034 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'
+00:05:08:041 [Verbose]: Upgrading 1 events and found these event upgraders to use: 
+00:05:08:041 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'
+00:05:08:041 [Verbose]: Committing event 
+VendingMachineAggregate v2 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0414066+01:00",
+  "aggregate_sequence_number": "2",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9",
+  "event_id": "event-53265ea3-1c99-583c-b091-755155c5173a",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "37a18037-7463-414e-8f29-26573e88f527",
+  "source_id": "command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "Cent50",
+    "value": 0.5
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:041 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds
+00:05:08:041 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9
+00:05:08:041 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 1 (or none), applying events
+00:05:08:042 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:042 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:042 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:042 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineAggregate'
+00:05:08:042 [Verbose]: Upgrading 2 events and found these event upgraders to use: 
+00:05:08:042 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'
+00:05:08:042 [Verbose]: Committing event 
+VendingMachineAggregate v3 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0425494+01:00",
+  "aggregate_sequence_number": "3",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9",
+  "event_id": "event-8555a27d-9035-5b9b-80ea-4a115a7f2ed5",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "2a472c3c-922d-4e50-bc2e-da1f5a8782c1",
+  "source_id": "command-3b6d21b4-8257-4715-8bcd-3eed61377b5d",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "OneEuro",
+    "value": 1.0
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 1
+    }
+  ]
+}
+---------------------------------
+00:05:08:042 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:042 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9
+00:05:08:042 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 2 (or none), applying events
+00:05:08:043 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:043 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:043 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:043 [Verbose]: Executing command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineAggregate'
+00:05:08:043 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'
+00:05:08:043 [Verbose]: Upgrading 3 events and found these event upgraders to use: 
+00:05:08:047 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'
+00:05:08:049 [Verbose]: Committing event 
+VendingMachineAggregate v4 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0474561+01:00",
+  "aggregate_sequence_number": "4",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9",
+  "event_id": "event-46bf9c2d-b24f-5ea3-9929-db21ce02ff2c",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "71679904-b7b1-478e-aa69-7c0e672c8e05",
+  "source_id": "command-2aeef45d-efed-40c8-8b52-aae6a0542526",
+  "event_name": "ProductSoldEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "ProductId": 1,
+  "Change": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ],
+  "UpdatedWallet": [
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 101
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 101
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 99
+    },
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 100
+    }
+  ],
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ],
+  "UpdatedProducts": [
+    {
+      "Id": 1,
+      "Name": "Tea",
+      "Price": 1.3,
+      "Quantity": 9
+    },
+    {
+      "Id": 2,
+      "Name": "Espresso",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 3,
+      "Name": "Juice",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 4,
+      "Name": "Chicken soup",
+      "Price": 1.8,
+      "Quantity": 15
+    }
+  ]
+}
+---------------------------------
+00:05:08:049 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,006 seconds
+00:05:08:049 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/ProductSoldEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9
+00:05:08:049 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 3 (or none), applying events
+00:05:08:049 [Debug]: Didn't find any subscribers to 'ProductSoldEvent'
+00:05:08:049 [Verbose]: Saga types to process for domain event 'ProductSoldEvent': 
+00:05:08:049 [Verbose]: Execution command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: ProductSoldEvent, was success: True
+00:05:08:050 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'
+00:05:08:050 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'
+
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.060, 174067186775, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"00:05:08:033 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:033 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:033 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:08:033 [Verbose]: Executing command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineAggregate'\r\n00:05:08:033 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:08:034 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:034 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0340664+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-a970a7a2-e7a0-5c7c-893a-05b7c69cda89\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"53389526-288e-494a-afed-2063096b956d\",\r\n  \"source_id\": \"command-494c7764-0573-4cb7-9cf9-250be00df317\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:034 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:034 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:034 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 0 (or none), applying events\r\n00:05:08:034 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:034 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:034 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:034 [Verbose]: Execution command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:034 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineAggregate'\r\n00:05:08:034 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:041 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:041 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:041 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0414066+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-53265ea3-1c99-583c-b091-755155c5173a\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"37a18037-7463-414e-8f29-26573e88f527\",\r\n  \"source_id\": \"command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:041 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds\r\n00:05:08:041 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:041 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 1 (or none), applying events\r\n00:05:08:042 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:042 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:042 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:042 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineAggregate'\r\n00:05:08:042 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:042 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:042 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0425494+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-8555a27d-9035-5b9b-80ea-4a115a7f2ed5\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"2a472c3c-922d-4e50-bc2e-da1f5a8782c1\",\r\n  \"source_id\": \"command-3b6d21b4-8257-4715-8bcd-3eed61377b5d\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:042 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:042 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:042 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 2 (or none), applying events\r\n00:05:08:043 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:043 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:043 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:043 [Verbose]: Executing command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineAggregate'\r\n00:05:08:043 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'\r\n00:05:08:043 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:047 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:049 [Verbose]: Committing event \r\nVendingMachineAggregate v4 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0474561+01:00\",\r\n  \"aggregate_sequence_number\": \"4\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-46bf9c2d-b24f-5ea3-9929-db21ce02ff2c\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"71679904-b7b1-478e-aa69-7c0e672c8e05\",\r\n  \"source_id\": \"command-2aeef45d-efed-40c8-8b52-aae6a0542526\",\r\n  \"event_name\": \"ProductSoldEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"ProductId\": 1,\r\n  \"Change\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ],\r\n  \"UpdatedWallet\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 101\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 101\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 99\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ],\r\n  \"UpdatedProducts\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 9\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:049 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,006 seconds\r\n00:05:08:049 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/ProductSoldEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:049 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 3 (or none), applying events\r\n00:05:08:049 [Debug]: Didn't find any subscribers to 'ProductSoldEvent'\r\n00:05:08:049 [Verbose]: Saga types to process for domain event 'ProductSoldEvent': \r\n00:05:08:049 [Verbose]: Execution command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: ProductSoldEvent, was success: True\r\n00:05:08:050 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'\r\n00:05:08:050 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'\r\n"}}
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.060, 174067189763, testhost.dll, TestExecutionRecorder.RecordEnd: test: VendingMachineTests.Tests.SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated execution completed.
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.061, 174067199754, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: VendingMachineTests.Tests.SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated.
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.061, 174067200605, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.061, 174067201076, testhost.dll, TestRunCache: No test found corresponding to testResult 'SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated' in inProgress list.
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.061, 174067201924, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: VendingMachineTests.Tests.SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed.
+TpTrace Information: 0 : 17844, 14, 2022/12/11, 00:05:08.063, 174067221073, testhost.dll, 00:05:08:053 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp
+00:05:08:053 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp
+00:05:08:053 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow
+00:05:08:053 [Verbose]: Executing command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineAggregate'
+00:05:08:053 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'
+00:05:08:053 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'
+00:05:08:053 [Verbose]: Committing event 
+VendingMachineAggregate v1 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.053581+01:00",
+  "aggregate_sequence_number": "1",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64",
+  "event_id": "event-3f6cb8ad-31eb-52be-a8b7-c2465884c8a2",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "18f1d299-13ef-48b9-a496-57bdd5dbb40e",
+  "source_id": "command-32a443cf-833c-460c-89bf-9f8ae847f831",
+  "event_name": "InitializedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Tea",
+      "Price": 1.3,
+      "Quantity": 10
+    },
+    {
+      "Id": 2,
+      "Name": "Espresso",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 3,
+      "Name": "Juice",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 4,
+      "Name": "Chicken soup",
+      "Price": 1.8,
+      "Quantity": 15
+    }
+  ],
+  "WalletCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 100
+    }
+  ],
+  "InsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:053 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64
+00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 0 (or none), applying events
+00:05:08:054 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'
+00:05:08:054 [Debug]: Didn't find any subscribers to 'InitializedEvent'
+00:05:08:054 [Verbose]: Saga types to process for domain event 'InitializedEvent': 
+00:05:08:054 [Verbose]: Execution command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True
+00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineAggregate'
+00:05:08:054 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'
+00:05:08:054 [Verbose]: Upgrading 1 events and found these event upgraders to use: 
+00:05:08:054 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'
+00:05:08:054 [Verbose]: Committing event 
+VendingMachineAggregate v2 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0545566+01:00",
+  "aggregate_sequence_number": "2",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64",
+  "event_id": "event-42310f07-ef75-557f-9b46-5e70ed7a5ad0",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "bed0f7e0-2382-4448-84a7-2427857bb5a1",
+  "source_id": "command-dc784933-4a48-4f4b-9c8e-8413651adeec",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "Cent50",
+    "value": 0.5
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:08:054 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64
+00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 1 (or none), applying events
+00:05:08:054 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:054 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:054 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineAggregate'
+00:05:08:055 [Verbose]: Upgrading 2 events and found these event upgraders to use: 
+00:05:08:055 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'
+00:05:08:055 [Verbose]: Committing event 
+VendingMachineAggregate v3 ==================================
+{
+  "timestamp": "2022-12-11T00:05:08.0550841+01:00",
+  "aggregate_sequence_number": "3",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64",
+  "event_id": "event-47191abe-915b-5156-81ca-b2afbdf2620a",
+  "timestamp_epoch": "1670713508",
+  "batch_id": "11b83481-af61-4bab-8b23-557f6c3c2dc6",
+  "source_id": "command-3053c47a-4511-4120-858b-b19126c6b9b1",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "OneEuro",
+    "value": 1.0
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 1
+    }
+  ]
+}
+---------------------------------
+00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:055 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64
+00:05:08:055 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 2 (or none), applying events
+00:05:08:055 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:08:055 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:08:055 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:08:055 [Verbose]: Executing command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate'
+00:05:08:055 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'
+00:05:08:055 [Verbose]: Upgrading 3 events and found these event upgraders to use: 
+00:05:08:055 [Debug]: Execution failed on aggregate 'VendingMachineAggregate', disregarding any events emitted
+00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds
+00:05:08:055 [Verbose]: Execution command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate' did NOT result in any domain events, was success:False
+
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.064, 174067225178, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"00:05:08:053 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:053 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:053 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:08:053 [Verbose]: Executing command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineAggregate'\r\n00:05:08:053 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:08:053 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:053 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.053581+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-3f6cb8ad-31eb-52be-a8b7-c2465884c8a2\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"18f1d299-13ef-48b9-a496-57bdd5dbb40e\",\r\n  \"source_id\": \"command-32a443cf-833c-460c-89bf-9f8ae847f831\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:053 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 0 (or none), applying events\r\n00:05:08:054 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:054 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:054 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:054 [Verbose]: Execution command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineAggregate'\r\n00:05:08:054 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:054 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:054 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:054 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0545566+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-42310f07-ef75-557f-9b46-5e70ed7a5ad0\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"bed0f7e0-2382-4448-84a7-2427857bb5a1\",\r\n  \"source_id\": \"command-dc784933-4a48-4f4b-9c8e-8413651adeec\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:054 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 1 (or none), applying events\r\n00:05:08:054 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:054 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:054 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineAggregate'\r\n00:05:08:055 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:055 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:055 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0550841+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-47191abe-915b-5156-81ca-b2afbdf2620a\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"11b83481-af61-4bab-8b23-557f6c3c2dc6\",\r\n  \"source_id\": \"command-3053c47a-4511-4120-858b-b19126c6b9b1\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:055 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:055 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 2 (or none), applying events\r\n00:05:08:055 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:055 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:055 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:055 [Verbose]: Executing command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate'\r\n00:05:08:055 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'\r\n00:05:08:055 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:055 [Debug]: Execution failed on aggregate 'VendingMachineAggregate', disregarding any events emitted\r\n00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:055 [Verbose]: Execution command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate' did NOT result in any domain events, was success:False\r\n"}}
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.064, 174067227411, testhost.dll, TestExecutionRecorder.RecordEnd: test: VendingMachineTests.Tests.SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed execution completed.
+TpTrace Verbose: 0 : 17844, 14, 2022/12/11, 00:05:08.065, 174067236784, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: VendingMachineTests.Tests.SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed.
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.065, 174067237608, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 17844, 14, 2022/12/11, 00:05:08.065, 174067237879, testhost.dll, TestRunCache: No test found corresponding to testResult 'SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed' in inProgress list.
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:08.071, 174067297185, testhost.dll, NUnit Adapter 4.0.0.0: Test execution complete
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:08.071, 174067298429, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 4.0.0.0: Test execution complete"}}
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:08.075, 174067338565, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 17844, 4, 2022/12/11, 00:05:08.078, 174067367607, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:08.100, 174067584643, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":3,"Stats":{"Passed":3}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.4482129","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"306c69ff-c735-aab1-9139-a555c91493da","FullyQualifiedName":"VendingMachineTests.Tests.CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty","DisplayName":"CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\VendingMachineTests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1066037583"}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty","Messages":[{"Category":"StdOutMsgs","Text":"00:05:07:891 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:07:899 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:07:900 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:07:914 [Verbose]: Executing command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineAggregate'\r\n00:05:07:918 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:07:948 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:07:971 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:07.9456496+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-492aa541-9f4b-5cd3-9455-f5b5c54c276c\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"15cf62a3-eb0a-4ea4-bcdd-1f1610bcb0b8\",\r\n  \"source_id\": \"command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:07:978 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,049 seconds\r\n00:05:07:982 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:07:987 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 0 (or none), applying events\r\n00:05:07:990 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:001 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:005 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:006 [Verbose]: Execution command 'InitCommand' with ID 'command-b5f4db92-e76e-4e06-af8e-173c9ccb6b47' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:011 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineAggregate'\r\n00:05:08:011 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:014 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:015 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:016 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0155976+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-0e858500-d9eb-50f2-876b-8e08940fd488\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"a1da0291-57d7-4e3c-a578-ea813a8f0765\",\r\n  \"source_id\": \"command-3064dd27-baa2-4fa1-9f73-a60f32724142\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:017 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,005 seconds\r\n00:05:08:017 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:017 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 1 (or none), applying events\r\n00:05:08:017 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:017 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:017 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3064dd27-baa2-4fa1-9f73-a60f32724142' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:017 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineAggregate'\r\n00:05:08:017 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:018 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:018 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0180436+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-e6d43a52-c97c-563e-ac6b-e631daaed841\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"ce829d88-7eb3-4e73-b6f2-b63ae94c49ec\",\r\n  \"source_id\": \"command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:018 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:018 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:018 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 2 (or none), applying events\r\n00:05:08:018 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:018 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:018 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3dd2c2b8-c1a7-4ef4-8aa2-b66cd3b55cb2' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:018 [Verbose]: Executing command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineAggregate'\r\n00:05:08:018 [Verbose]: Command 'CancelPurchaseCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,CancelPurchaseCommand>'\r\n00:05:08:018 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:019 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc'\r\n00:05:08:019 [Verbose]: Committing event \r\nVendingMachineAggregate v4 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0190701+01:00\",\r\n  \"aggregate_sequence_number\": \"4\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\",\r\n  \"event_id\": \"event-ed569e6f-75a5-5252-a261-d4790cb2bc0b\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"f0ef2a0b-5362-4bf4-8815-b1402bd7c04e\",\r\n  \"source_id\": \"command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf\",\r\n  \"event_name\": \"PurchaseCanceledEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:019 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds\r\n00:05:08:019 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/PurchaseCanceledEvent:vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc\r\n00:05:08:019 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-61a53628-4d02-42d6-b9e5-a7a3091d4dfc' has version 3 (or none), applying events\r\n00:05:08:020 [Debug]: Didn't find any subscribers to 'PurchaseCanceledEvent'\r\n00:05:08:020 [Verbose]: Saga types to process for domain event 'PurchaseCanceledEvent': \r\n00:05:08:020 [Verbose]: Execution command 'CancelPurchaseCommand' with ID 'command-b2f121f8-1c48-44f9-a8ac-33f7b741eaaf' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: PurchaseCanceledEvent, was success: True\r\n00:05:08:023 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'\r\n00:05:08:024 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'\r\n"}],"ComputerName":"CESNB1113","Duration":"00:00:00.2000100","StartTime":"2022-12-10T23:05:07.8288481+00:00","EndTime":"2022-12-10T23:05:08.0287791+00:00","Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1066037583"}]},{"TestCase":{"Id":"ed53ee78-5f7b-b0af-f263-356a69a7cf39","FullyQualifiedName":"VendingMachineTests.Tests.SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated","DisplayName":"SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\VendingMachineTests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"491182574"}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated","Messages":[{"Category":"StdOutMsgs","Text":"00:05:08:033 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:033 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:033 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:08:033 [Verbose]: Executing command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineAggregate'\r\n00:05:08:033 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:08:034 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:034 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0340664+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-a970a7a2-e7a0-5c7c-893a-05b7c69cda89\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"53389526-288e-494a-afed-2063096b956d\",\r\n  \"source_id\": \"command-494c7764-0573-4cb7-9cf9-250be00df317\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:034 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:034 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:034 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 0 (or none), applying events\r\n00:05:08:034 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:034 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:034 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:034 [Verbose]: Execution command 'InitCommand' with ID 'command-494c7764-0573-4cb7-9cf9-250be00df317' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:034 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineAggregate'\r\n00:05:08:034 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:041 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:041 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:041 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0414066+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-53265ea3-1c99-583c-b091-755155c5173a\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"37a18037-7463-414e-8f29-26573e88f527\",\r\n  \"source_id\": \"command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:041 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds\r\n00:05:08:041 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:041 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 1 (or none), applying events\r\n00:05:08:042 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:042 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:042 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-ecc7fa2b-ab68-471e-809d-7ee2cfdd60b7' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:042 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineAggregate'\r\n00:05:08:042 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:042 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:042 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0425494+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-8555a27d-9035-5b9b-80ea-4a115a7f2ed5\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"2a472c3c-922d-4e50-bc2e-da1f5a8782c1\",\r\n  \"source_id\": \"command-3b6d21b4-8257-4715-8bcd-3eed61377b5d\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:042 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:042 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:042 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 2 (or none), applying events\r\n00:05:08:043 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:043 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:043 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3b6d21b4-8257-4715-8bcd-3eed61377b5d' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:043 [Verbose]: Executing command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineAggregate'\r\n00:05:08:043 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'\r\n00:05:08:043 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:047 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9'\r\n00:05:08:049 [Verbose]: Committing event \r\nVendingMachineAggregate v4 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0474561+01:00\",\r\n  \"aggregate_sequence_number\": \"4\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\",\r\n  \"event_id\": \"event-46bf9c2d-b24f-5ea3-9929-db21ce02ff2c\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"71679904-b7b1-478e-aa69-7c0e672c8e05\",\r\n  \"source_id\": \"command-2aeef45d-efed-40c8-8b52-aae6a0542526\",\r\n  \"event_name\": \"ProductSoldEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"ProductId\": 1,\r\n  \"Change\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ],\r\n  \"UpdatedWallet\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 101\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 101\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 99\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ],\r\n  \"UpdatedProducts\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 9\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:049 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,006 seconds\r\n00:05:08:049 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v4/ProductSoldEvent:vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9\r\n00:05:08:049 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-76affc12-5820-45c0-a089-570e79ae43e9' has version 3 (or none), applying events\r\n00:05:08:049 [Debug]: Didn't find any subscribers to 'ProductSoldEvent'\r\n00:05:08:049 [Verbose]: Saga types to process for domain event 'ProductSoldEvent': \r\n00:05:08:049 [Verbose]: Execution command 'SellProductCommand' with ID 'command-2aeef45d-efed-40c8-8b52-aae6a0542526' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: ProductSoldEvent, was success: True\r\n00:05:08:050 [Verbose]: Executing query 'VendingMachineByIdQuery' (IQueryHandler<VendingMachineByIdQuery,VendingMachineReadModel>) by using query handler 'VendingMachineByIdQueryHandler'\r\n00:05:08:050 [Verbose]: Executing query 'ReadModelByIdQuery<VendingMachineReadModel>' (IQueryHandler<ReadModelByIdQuery<VendingMachineReadModel>,VendingMachineReadModel>) by using query handler 'ReadModelByIdQueryHandler<IInMemoryReadStore<VendingMachineReadModel>,VendingMachineReadModel>'\r\n"}],"ComputerName":"CESNB1113","Duration":"00:00:00.0205120","StartTime":"2022-12-10T23:05:08.0303668+00:00","EndTime":"2022-12-10T23:05:08.0508788+00:00","Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"491182574"}]},{"TestCase":{"Id":"275a5b5b-1469-becd-848e-86ad2eee2068","FullyQualifiedName":"VendingMachineTests.Tests.SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed","DisplayName":"SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\omar.sedano\\source\\repos\\VendingMachineApp\\VendingMachineTests\\bin\\Debug\\fine-code-coverage-net6.0\\VendingMachineTests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1264231515"}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed","Messages":[{"Category":"StdOutMsgs","Text":"00:05:08:053 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:053 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp\r\n00:05:08:053 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow\r\n00:05:08:053 [Verbose]: Executing command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineAggregate'\r\n00:05:08:053 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'\r\n00:05:08:053 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:053 [Verbose]: Committing event \r\nVendingMachineAggregate v1 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.053581+01:00\",\r\n  \"aggregate_sequence_number\": \"1\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-3f6cb8ad-31eb-52be-a8b7-c2465884c8a2\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"18f1d299-13ef-48b9-a496-57bdd5dbb40e\",\r\n  \"source_id\": \"command-32a443cf-833c-460c-89bf-9f8ae847f831\",\r\n  \"event_name\": \"InitializedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Products\": [\r\n    {\r\n      \"Id\": 1,\r\n      \"Name\": \"Tea\",\r\n      \"Price\": 1.3,\r\n      \"Quantity\": 10\r\n    },\r\n    {\r\n      \"Id\": 2,\r\n      \"Name\": \"Espresso\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Name\": \"Juice\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 20\r\n    },\r\n    {\r\n      \"Id\": 4,\r\n      \"Name\": \"Chicken soup\",\r\n      \"Price\": 1.8,\r\n      \"Quantity\": 15\r\n    }\r\n  ],\r\n  \"WalletCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 100\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 100\r\n    }\r\n  ],\r\n  \"InsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:053 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 0 (or none), applying events\r\n00:05:08:054 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:054 [Debug]: Didn't find any subscribers to 'InitializedEvent'\r\n00:05:08:054 [Verbose]: Saga types to process for domain event 'InitializedEvent': \r\n00:05:08:054 [Verbose]: Execution command 'InitCommand' with ID 'command-32a443cf-833c-460c-89bf-9f8ae847f831' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True\r\n00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineAggregate'\r\n00:05:08:054 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'\r\n00:05:08:054 [Verbose]: Upgrading 1 events and found these event upgraders to use: \r\n00:05:08:054 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:054 [Verbose]: Committing event \r\nVendingMachineAggregate v2 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0545566+01:00\",\r\n  \"aggregate_sequence_number\": \"2\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-42310f07-ef75-557f-9b46-5e70ed7a5ad0\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"bed0f7e0-2382-4448-84a7-2427857bb5a1\",\r\n  \"source_id\": \"command-dc784933-4a48-4f4b-9c8e-8413651adeec\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"Cent50\",\r\n    \"value\": 0.5\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 0\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:054 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:054 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:054 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 1 (or none), applying events\r\n00:05:08:054 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:054 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:054 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-dc784933-4a48-4f4b-9c8e-8413651adeec' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:054 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineAggregate'\r\n00:05:08:055 [Verbose]: Upgrading 2 events and found these event upgraders to use: \r\n00:05:08:055 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64'\r\n00:05:08:055 [Verbose]: Committing event \r\nVendingMachineAggregate v3 ==================================\r\n{\r\n  \"timestamp\": \"2022-12-11T00:05:08.0550841+01:00\",\r\n  \"aggregate_sequence_number\": \"3\",\r\n  \"aggregate_name\": \"VendingMachineAggregate\",\r\n  \"aggregate_id\": \"vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\",\r\n  \"event_id\": \"event-47191abe-915b-5156-81ca-b2afbdf2620a\",\r\n  \"timestamp_epoch\": \"1670713508\",\r\n  \"batch_id\": \"11b83481-af61-4bab-8b23-557f6c3c2dc6\",\r\n  \"source_id\": \"command-3053c47a-4511-4120-858b-b19126c6b9b1\",\r\n  \"event_name\": \"CoinInsertedEvent\",\r\n  \"event_version\": \"1\"\r\n}\r\n---------------------------------\r\n{\r\n  \"Coin\": {\r\n    \"name\": \"OneEuro\",\r\n    \"value\": 1.0\r\n  },\r\n  \"UpdatedInsertedCoins\": [\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent10\",\r\n        \"value\": 0.1\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent20\",\r\n        \"value\": 0.2\r\n      },\r\n      \"Quantity\": 0\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"Cent50\",\r\n        \"value\": 0.5\r\n      },\r\n      \"Quantity\": 1\r\n    },\r\n    {\r\n      \"Coin\": {\r\n        \"name\": \"OneEuro\",\r\n        \"value\": 1.0\r\n      },\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n---------------------------------\r\n00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:055 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64\r\n00:05:08:055 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-669d04f5-963c-46c9-8f9c-58c24e1b4b64' has version 2 (or none), applying events\r\n00:05:08:055 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'\r\n00:05:08:055 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': \r\n00:05:08:055 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-3053c47a-4511-4120-858b-b19126c6b9b1' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True\r\n00:05:08:055 [Verbose]: Executing command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate'\r\n00:05:08:055 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'\r\n00:05:08:055 [Verbose]: Upgrading 3 events and found these event upgraders to use: \r\n00:05:08:055 [Debug]: Execution failed on aggregate 'VendingMachineAggregate', disregarding any events emitted\r\n00:05:08:055 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0 seconds\r\n00:05:08:055 [Verbose]: Execution command 'SellProductCommand' with ID 'command-187a014b-594e-454d-834a-b250469cab20' on aggregate 'VendingMachineAggregate' did NOT result in any domain events, was success:False\r\n"}],"ComputerName":"CESNB1113","Duration":"00:00:00.0065810","StartTime":"2022-12-10T23:05:08.0509063+00:00","EndTime":"2022-12-10T23:05:08.0574867+00:00","Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1264231515"}]}],"TestRunStatistics":{"ExecutedTests":3,"Stats":{"Passed":3}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://nunit3testexecutor/"]}}
+TpTrace Verbose: 0 : 17844, 4, 2022/12/11, 00:05:08.100, 174067591663, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:08.102, 174067611157, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.102, 174067612375, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.102, 174067612682, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.103, 174067614952, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:058386
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.103, 174067615350, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:08.103, 174067616179, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.103, 174067616510, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 17844, 9, 2022/12/11, 00:05:08.103, 174067618035, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:058386, error:
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:08.104, 174067624475, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:08.104, 174067624562, testhost.dll, Closing the connection !
+TpTrace Verbose: 0 : 17844, 9, 2022/12/11, 00:05:08.104, 174067624980, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:58386 localEndPoint: [::ffff:127.0.0.1]:58387
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:08.104, 174067625741, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:058386
+TpTrace Verbose: 0 : 17844, 1, 2022/12/11, 00:05:08.104, 174067626667, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 17844, 1, 2022/12/11, 00:05:08.104, 174067627397, testhost.dll, Testhost process exiting.

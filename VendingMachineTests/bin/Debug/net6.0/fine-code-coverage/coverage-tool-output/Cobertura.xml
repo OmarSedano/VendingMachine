@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.967741935483871" branch-rate="0.863636363636364" lines-covered="450" lines-valid="465" branches-covered="19" branches-valid="22" complexity="101" version="0" timestamp="1670717108">
+  <sources>
+    <source>C:\Users\omar.sedano\</source>
+  </sources>
+  <packages>
+    <package name="VendingMachineApp" line-rate="0.953795379537954" branch-rate="0.863636363636364" complexity="96">
+      <classes>
+        <class name="VendingMachineApp.Domain.Commands.CancelPurchaseCommand" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Commands\CancelPurchaseCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ExecuteCommandAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Commands.InitCommand" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Commands\InitCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+                <line number="13" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="ExecuteCommandAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="false" />
+                <line number="19" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="13" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Commands.InsertCoinCommand" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Commands\InsertCoinCommand.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Coin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="6" branch="false" />
+                <line number="12" hits="6" branch="false" />
+                <line number="13" hits="6" branch="false" />
+                <line number="14" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="ExecuteCommandAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="6" branch="false" />
+                <line number="22" hits="6" branch="false" />
+                <line number="23" hits="6" branch="false" />
+                <line number="24" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="6" branch="false" />
+            <line number="12" hits="6" branch="false" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="6" branch="false" />
+            <line number="16" hits="6" branch="false" />
+            <line number="21" hits="6" branch="false" />
+            <line number="22" hits="6" branch="false" />
+            <line number="23" hits="6" branch="false" />
+            <line number="24" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Commands.SellProductCommand" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Commands\SellProductCommand.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="12" hits="2" branch="false" />
+                <line number="13" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ExecuteCommandAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Entities.Coin" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Entities\Coin.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="365" branch="false" />
+              </lines>
+            </method>
+            <method name="get_value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="350" branch="false" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="104" branch="false" />
+                <line number="26" hits="104" branch="false" />
+                <line number="27" hits="104" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="187" branch="false" />
+                <line number="14" hits="187" branch="false" />
+                <line number="16" hits="187" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="4" branch="false" />
+                <line number="19" hits="4" branch="false" />
+                <line number="20" hits="4" branch="false" />
+                <line number="21" hits="4" branch="false" />
+                <line number="22" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+                <line number="6" hits="1" branch="false" />
+                <line number="7" hits="1" branch="false" />
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="10" hits="365" branch="false" />
+            <line number="11" hits="350" branch="false" />
+            <line number="13" hits="187" branch="false" />
+            <line number="14" hits="187" branch="false" />
+            <line number="16" hits="187" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="19" hits="4" branch="false" />
+            <line number="20" hits="4" branch="false" />
+            <line number="21" hits="4" branch="false" />
+            <line number="22" hits="4" branch="false" />
+            <line number="25" hits="104" branch="false" />
+            <line number="26" hits="104" branch="false" />
+            <line number="27" hits="104" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Entities.CoinsInfo" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Entities\CoinsInfo.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Coin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="401" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="376" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="208" branch="false" />
+                <line number="6" hits="208" branch="false" />
+                <line number="7" hits="208" branch="false" />
+                <line number="8" hits="208" branch="false" />
+                <line number="9" hits="208" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="208" branch="false" />
+            <line number="6" hits="208" branch="false" />
+            <line number="7" hits="208" branch="false" />
+            <line number="8" hits="208" branch="false" />
+            <line number="9" hits="208" branch="false" />
+            <line number="11" hits="401" branch="false" />
+            <line number="12" hits="376" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Entities.Product" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Entities\Product.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="36" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="32" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Price" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="35" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="100" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="64" branch="false" />
+                <line number="10" hits="64" branch="false" />
+                <line number="11" hits="64" branch="false" />
+                <line number="12" hits="64" branch="false" />
+                <line number="13" hits="64" branch="false" />
+                <line number="14" hits="64" branch="false" />
+                <line number="15" hits="64" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="64" branch="false" />
+            <line number="10" hits="64" branch="false" />
+            <line number="11" hits="64" branch="false" />
+            <line number="12" hits="64" branch="false" />
+            <line number="13" hits="64" branch="false" />
+            <line number="14" hits="64" branch="false" />
+            <line number="15" hits="64" branch="false" />
+            <line number="17" hits="36" branch="false" />
+            <line number="19" hits="32" branch="false" />
+            <line number="21" hits="35" branch="false" />
+            <line number="23" hits="100" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Events.CoinInsertedEvent" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Events\CoinInsertedEvent.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Coin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UpdatedInsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="27" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="21" branch="false" />
+                <line number="10" hits="21" branch="false" />
+                <line number="11" hits="21" branch="false" />
+                <line number="12" hits="21" branch="false" />
+                <line number="13" hits="21" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="21" branch="false" />
+            <line number="10" hits="21" branch="false" />
+            <line number="11" hits="21" branch="false" />
+            <line number="12" hits="21" branch="false" />
+            <line number="13" hits="21" branch="false" />
+            <line number="15" hits="6" branch="false" />
+            <line number="16" hits="27" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Events.InitializedEvent" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Events\InitializedEvent.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Products" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name="get_WalletCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name="get_InsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="15" branch="false" />
+                <line number="10" hits="15" branch="false" />
+                <line number="11" hits="15" branch="false" />
+                <line number="12" hits="15" branch="false" />
+                <line number="13" hits="15" branch="false" />
+                <line number="14" hits="15" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="15" branch="false" />
+            <line number="10" hits="15" branch="false" />
+            <line number="11" hits="15" branch="false" />
+            <line number="12" hits="15" branch="false" />
+            <line number="13" hits="15" branch="false" />
+            <line number="14" hits="15" branch="false" />
+            <line number="16" hits="18" branch="false" />
+            <line number="17" hits="18" branch="false" />
+            <line number="18" hits="18" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Events.ProductSoldEvent" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Events\ProductSoldEvent.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Change" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UpdatedWallet" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UpdatedInsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UpdatedProducts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="12" hits="2" branch="false" />
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+                <line number="16" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="false" />
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="24" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.Events.PurchaseCanceledEvent" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\Events\PurchaseCanceledEvent.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_UpdatedInsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="12" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="false" />
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="14" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.SellProductCoinsResult" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\VendingMachineAggregate.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_UpdatedWallet" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="218" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Change" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="219" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UpdatedInsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="220" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="211" hits="1" branch="false" />
+                <line number="212" hits="1" branch="false" />
+                <line number="213" hits="1" branch="false" />
+                <line number="214" hits="1" branch="false" />
+                <line number="215" hits="1" branch="false" />
+                <line number="216" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="211" hits="1" branch="false" />
+            <line number="212" hits="1" branch="false" />
+            <line number="213" hits="1" branch="false" />
+            <line number="214" hits="1" branch="false" />
+            <line number="215" hits="1" branch="false" />
+            <line number="216" hits="1" branch="false" />
+            <line number="218" hits="1" branch="false" />
+            <line number="219" hits="1" branch="false" />
+            <line number="220" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.VendingMachineAggregate" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\VendingMachineAggregate.cs" line-rate="0.967213114754098" branch-rate="0.9" complexity="29">
+          <methods>
+            <method name="Init" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="3" branch="false" />
+                <line number="38" hits="3" branch="false" />
+                <line number="39" hits="3" branch="false" />
+                <line number="40" hits="3" branch="false" />
+                <line number="41" hits="3" branch="false" />
+                <line number="42" hits="3" branch="false" />
+                <line number="43" hits="3" branch="false" />
+                <line number="44" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+                <line number="50" hits="3" branch="false" />
+                <line number="51" hits="3" branch="false" />
+                <line number="52" hits="3" branch="false" />
+                <line number="54" hits="3" branch="false" />
+                <line number="56" hits="3" branch="false" />
+                <line number="57" hits="3" branch="false" />
+                <line number="58" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertCoin" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="6" branch="false" />
+                <line number="63" hits="6" branch="false" />
+                <line number="64" hits="30" branch="false" />
+                <line number="65" hits="6" branch="false" />
+                <line number="67" hits="6" branch="false" />
+                <line number="68" hits="6" branch="false" />
+                <line number="69" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="CancelPurchase" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SellProduct" signature="(...)" line-rate="0.777777777777778" branch-rate="0.666666666666667" complexity="6">
+              <lines>
+                <line number="79" hits="2" branch="false" />
+                <line number="80" hits="5" branch="false" />
+                <line number="81" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+                <line number="86" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="91" hits="10" branch="false" />
+                <line number="92" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="2" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetEmptyInsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="112" hits="5" branch="false" />
+                <line number="113" hits="5" branch="false" />
+                <line number="114" hits="5" branch="false" />
+                <line number="115" hits="5" branch="false" />
+                <line number="116" hits="5" branch="false" />
+                <line number="117" hits="5" branch="false" />
+                <line number="118" hits="5" branch="false" />
+                <line number="119" hits="5" branch="false" />
+                <line number="120" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="GetCoinsResult" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines>
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+                <line number="133" hits="5" branch="false" />
+                <line number="134" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+                <line number="137" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="138" hits="3" branch="false" />
+                <line number="140" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="141" hits="4" branch="false" />
+                <line number="142" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="143" hits="3" branch="false" />
+                <line number="144" hits="3" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="147" hits="1" branch="false" />
+                <line number="149" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+                <line number="153" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="154" hits="1" branch="false" />
+                <line number="155" hits="1" branch="false" />
+                <line number="157" hits="2" branch="false" />
+                <line number="158" hits="1" branch="false" />
+                <line number="160" hits="1" branch="false" />
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetVendingCoins" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="166" hits="1" branch="false" />
+                <line number="167" hits="1" branch="false" />
+                <line number="168" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="169" hits="4" branch="false" />
+                <line number="170" hits="14" branch="false" />
+                <line number="171" hits="4" branch="false" />
+                <line number="172" hits="4" branch="false" />
+                <line number="174" hits="1" branch="false" />
+                <line number="175" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="183" hits="12" branch="false" />
+                <line number="184" hits="12" branch="false" />
+                <line number="185" hits="12" branch="false" />
+                <line number="186" hits="12" branch="false" />
+                <line number="187" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="190" hits="15" branch="false" />
+                <line number="191" hits="15" branch="false" />
+                <line number="192" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="195" hits="1" branch="false" />
+                <line number="196" hits="1" branch="false" />
+                <line number="197" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="200" hits="1" branch="false" />
+                <line number="201" hits="1" branch="false" />
+                <line number="202" hits="1" branch="false" />
+                <line number="203" hits="1" branch="false" />
+                <line number="204" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="12" branch="false" />
+                <line number="25" hits="12" branch="false" />
+                <line number="27" hits="12" branch="false" />
+                <line number="30" hits="12" branch="false" />
+                <line number="31" hits="12" branch="false" />
+                <line number="32" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="12" branch="false" />
+            <line number="25" hits="12" branch="false" />
+            <line number="27" hits="12" branch="false" />
+            <line number="30" hits="12" branch="false" />
+            <line number="31" hits="12" branch="false" />
+            <line number="32" hits="12" branch="false" />
+            <line number="37" hits="3" branch="false" />
+            <line number="38" hits="3" branch="false" />
+            <line number="39" hits="3" branch="false" />
+            <line number="40" hits="3" branch="false" />
+            <line number="41" hits="3" branch="false" />
+            <line number="42" hits="3" branch="false" />
+            <line number="43" hits="3" branch="false" />
+            <line number="44" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="50" hits="3" branch="false" />
+            <line number="51" hits="3" branch="false" />
+            <line number="52" hits="3" branch="false" />
+            <line number="54" hits="3" branch="false" />
+            <line number="56" hits="3" branch="false" />
+            <line number="57" hits="3" branch="false" />
+            <line number="58" hits="3" branch="false" />
+            <line number="62" hits="6" branch="false" />
+            <line number="63" hits="6" branch="false" />
+            <line number="64" hits="30" branch="false" />
+            <line number="65" hits="6" branch="false" />
+            <line number="67" hits="6" branch="false" />
+            <line number="68" hits="6" branch="false" />
+            <line number="69" hits="6" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="79" hits="2" branch="false" />
+            <line number="80" hits="5" branch="false" />
+            <line number="81" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="86" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="91" hits="10" branch="false" />
+            <line number="92" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="2" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="2" branch="false" />
+            <line number="112" hits="5" branch="false" />
+            <line number="113" hits="5" branch="false" />
+            <line number="114" hits="5" branch="false" />
+            <line number="115" hits="5" branch="false" />
+            <line number="116" hits="5" branch="false" />
+            <line number="117" hits="5" branch="false" />
+            <line number="118" hits="5" branch="false" />
+            <line number="119" hits="5" branch="false" />
+            <line number="120" hits="5" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="133" hits="5" branch="false" />
+            <line number="134" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="137" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="138" hits="3" branch="false" />
+            <line number="140" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="141" hits="4" branch="false" />
+            <line number="142" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="143" hits="3" branch="false" />
+            <line number="144" hits="3" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="147" hits="1" branch="false" />
+            <line number="149" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="153" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="154" hits="1" branch="false" />
+            <line number="155" hits="1" branch="false" />
+            <line number="157" hits="2" branch="false" />
+            <line number="158" hits="1" branch="false" />
+            <line number="160" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="167" hits="1" branch="false" />
+            <line number="168" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="169" hits="4" branch="false" />
+            <line number="170" hits="14" branch="false" />
+            <line number="171" hits="4" branch="false" />
+            <line number="172" hits="4" branch="false" />
+            <line number="174" hits="1" branch="false" />
+            <line number="175" hits="1" branch="false" />
+            <line number="183" hits="12" branch="false" />
+            <line number="184" hits="12" branch="false" />
+            <line number="185" hits="12" branch="false" />
+            <line number="186" hits="12" branch="false" />
+            <line number="187" hits="12" branch="false" />
+            <line number="190" hits="15" branch="false" />
+            <line number="191" hits="15" branch="false" />
+            <line number="192" hits="15" branch="false" />
+            <line number="195" hits="1" branch="false" />
+            <line number="196" hits="1" branch="false" />
+            <line number="197" hits="1" branch="false" />
+            <line number="200" hits="1" branch="false" />
+            <line number="201" hits="1" branch="false" />
+            <line number="202" hits="1" branch="false" />
+            <line number="203" hits="1" branch="false" />
+            <line number="204" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Domain.VendingMachineId" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Domain\VendingMachineId.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="32" branch="false" />
+                <line number="8" hits="32" branch="false" />
+                <line number="9" hits="32" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="32" branch="false" />
+            <line number="8" hits="32" branch="false" />
+            <line number="9" hits="32" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.Program" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.Models.CoinsInfoModel" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\Models\CoinsInfoModel.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Coin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="104" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="80" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="104" branch="false" />
+            <line number="6" hits="80" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.Models.Mappers.ReadModelMapper" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\Models\Mappers\ReadModelMapper.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Map" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="false" />
+                <line number="10" hits="16" branch="false" />
+                <line number="11" hits="16" branch="false" />
+                <line number="12" hits="16" branch="false" />
+                <line number="13" hits="16" branch="false" />
+                <line number="14" hits="16" branch="false" />
+                <line number="15" hits="16" branch="false" />
+                <line number="16" hits="16" branch="false" />
+                <line number="17" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="Map" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="64" branch="false" />
+                <line number="21" hits="64" branch="false" />
+                <line number="22" hits="64" branch="false" />
+                <line number="23" hits="64" branch="false" />
+                <line number="24" hits="64" branch="false" />
+                <line number="25" hits="64" branch="false" />
+                <line number="26" hits="64" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="16" branch="false" />
+            <line number="10" hits="16" branch="false" />
+            <line number="11" hits="16" branch="false" />
+            <line number="12" hits="16" branch="false" />
+            <line number="13" hits="16" branch="false" />
+            <line number="14" hits="16" branch="false" />
+            <line number="15" hits="16" branch="false" />
+            <line number="16" hits="16" branch="false" />
+            <line number="17" hits="16" branch="false" />
+            <line number="20" hits="64" branch="false" />
+            <line number="21" hits="64" branch="false" />
+            <line number="22" hits="64" branch="false" />
+            <line number="23" hits="64" branch="false" />
+            <line number="24" hits="64" branch="false" />
+            <line number="25" hits="64" branch="false" />
+            <line number="26" hits="64" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.Models.ProductModel" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\Models\ProductModel.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="17" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Price" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="17" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="17" branch="false" />
+            <line number="8" hits="16" branch="false" />
+            <line number="10" hits="16" branch="false" />
+            <line number="12" hits="17" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.Models.VendingMachineReadModel" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\Models\VendingMachineReadModel.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_AggregateId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Products" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_WalletCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="get_InsertedCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ChangeCoins" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="6" branch="false" />
+                <line number="31" hits="6" branch="false" />
+                <line number="32" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Apply" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+                <line number="50" hits="3" branch="false" />
+                <line number="51" hits="3" branch="false" />
+                <line number="52" hits="3" branch="false" />
+                <line number="53" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="3" branch="false" />
+            <line number="20" hits="5" branch="false" />
+            <line number="22" hits="8" branch="false" />
+            <line number="24" hits="19" branch="false" />
+            <line number="26" hits="5" branch="false" />
+            <line number="30" hits="6" branch="false" />
+            <line number="31" hits="6" branch="false" />
+            <line number="32" hits="6" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="50" hits="3" branch="false" />
+            <line number="51" hits="3" branch="false" />
+            <line number="52" hits="3" branch="false" />
+            <line number="53" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.Queries.VendingMachineByIdQuery" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\Queries\VendingMachineByIdQuery.cs" line-rate="0.75" branch-rate="0.5" complexity="3">
+          <methods>
+            <method name="get_VendingMachineId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0.714285714285714" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="12" hits="2" branch="false" />
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineApp.ReadModel.QueryHandlers.VendingMachineByIdQueryHandler" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineApp\ReadModel\QueryHandlers\VendingMachineByIdQueryHandler.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+                <line number="17" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="ExecuteQueryAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="5" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="17" hits="5" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="VendingMachineTests" line-rate="0.993827160493827" branch-rate="1" complexity="5">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\omar.sedano\.nuget\packages\microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="VendingMachineTests.Tests" filename="C:\Users\omar.sedano\source\repos\VendingMachineApp\VendingMachineTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="3" branch="false" />
+                <line number="26" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="197" hits="1" branch="false" />
+                <line number="198" hits="1" branch="false" />
+                <line number="199" hits="1" branch="false" />
+                <line number="200" hits="1" branch="false" />
+                <line number="201" hits="1" branch="false" />
+                <line number="202" hits="1" branch="false" />
+                <line number="203" hits="1" branch="false" />
+                <line number="204" hits="1" branch="false" />
+                <line number="205" hits="1" branch="false" />
+                <line number="206" hits="1" branch="false" />
+                <line number="207" hits="1" branch="false" />
+                <line number="208" hits="1" branch="false" />
+                <line number="209" hits="1" branch="false" />
+                <line number="210" hits="1" branch="false" />
+                <line number="212" hits="1" branch="false" />
+                <line number="216" hits="1" branch="false" />
+                <line number="217" hits="1" branch="false" />
+                <line number="218" hits="1" branch="false" />
+                <line number="219" hits="1" branch="false" />
+                <line number="221" hits="1" branch="false" />
+                <line number="225" hits="1" branch="false" />
+                <line number="226" hits="1" branch="false" />
+                <line number="227" hits="1" branch="false" />
+                <line number="228" hits="1" branch="false" />
+                <line number="230" hits="1" branch="false" />
+                <line number="234" hits="1" branch="false" />
+                <line number="235" hits="1" branch="false" />
+                <line number="236" hits="1" branch="false" />
+                <line number="237" hits="1" branch="false" />
+                <line number="239" hits="1" branch="false" />
+                <line number="244" hits="1" branch="false" />
+                <line number="245" hits="1" branch="false" />
+                <line number="246" hits="1" branch="false" />
+                <line number="247" hits="1" branch="false" />
+                <line number="249" hits="1" branch="false" />
+                <line number="253" hits="1" branch="false" />
+                <line number="254" hits="1" branch="false" />
+                <line number="255" hits="1" branch="false" />
+                <line number="256" hits="1" branch="false" />
+                <line number="257" hits="1" branch="false" />
+                <line number="259" hits="1" branch="false" />
+                <line number="263" hits="3" branch="false" />
+                <line number="264" hits="1" branch="false" />
+                <line number="265" hits="4" branch="false" />
+                <line number="266" hits="1" branch="false" />
+                <line number="267" hits="2" branch="false" />
+                <line number="268" hits="1" branch="false" />
+                <line number="269" hits="5" branch="false" />
+                <line number="270" hits="1" branch="false" />
+                <line number="271" hits="1" branch="false" />
+                <line number="272" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SellProduct_WhenCalled_ThenChangeAndProductShouldBeUpdated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="123" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+                <line number="137" hits="1" branch="false" />
+                <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
+                <line number="141" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="148" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+                <line number="152" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+                <line number="157" hits="2" branch="false" />
+                <line number="161" hits="3" branch="false" />
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="4" branch="false" />
+                <line number="164" hits="1" branch="false" />
+                <line number="165" hits="2" branch="false" />
+                <line number="166" hits="1" branch="false" />
+                <line number="167" hits="5" branch="false" />
+                <line number="168" hits="1" branch="false" />
+                <line number="172" hits="4" branch="false" />
+                <line number="173" hits="1" branch="false" />
+                <line number="174" hits="3" branch="false" />
+                <line number="175" hits="1" branch="false" />
+                <line number="176" hits="5" branch="false" />
+                <line number="177" hits="1" branch="false" />
+                <line number="178" hits="2" branch="false" />
+                <line number="179" hits="1" branch="false" />
+                <line number="184" hits="3" branch="false" />
+                <line number="185" hits="1" branch="false" />
+                <line number="186" hits="4" branch="false" />
+                <line number="187" hits="1" branch="false" />
+                <line number="188" hits="2" branch="false" />
+                <line number="189" hits="1" branch="false" />
+                <line number="190" hits="5" branch="false" />
+                <line number="191" hits="1" branch="false" />
+                <line number="192" hits="1" branch="false" />
+                <line number="193" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SellProduct_WhenInsertedMoneyIsLessThanProductPrice_ThenReturnExecutionFailed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="137" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="148" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="152" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="157" hits="2" branch="false" />
+            <line number="161" hits="3" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="4" branch="false" />
+            <line number="164" hits="1" branch="false" />
+            <line number="165" hits="2" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="167" hits="5" branch="false" />
+            <line number="168" hits="1" branch="false" />
+            <line number="172" hits="4" branch="false" />
+            <line number="173" hits="1" branch="false" />
+            <line number="174" hits="3" branch="false" />
+            <line number="175" hits="1" branch="false" />
+            <line number="176" hits="5" branch="false" />
+            <line number="177" hits="1" branch="false" />
+            <line number="178" hits="2" branch="false" />
+            <line number="179" hits="1" branch="false" />
+            <line number="184" hits="3" branch="false" />
+            <line number="185" hits="1" branch="false" />
+            <line number="186" hits="4" branch="false" />
+            <line number="187" hits="1" branch="false" />
+            <line number="188" hits="2" branch="false" />
+            <line number="189" hits="1" branch="false" />
+            <line number="190" hits="5" branch="false" />
+            <line number="191" hits="1" branch="false" />
+            <line number="192" hits="1" branch="false" />
+            <line number="193" hits="1" branch="false" />
+            <line number="197" hits="1" branch="false" />
+            <line number="198" hits="1" branch="false" />
+            <line number="199" hits="1" branch="false" />
+            <line number="200" hits="1" branch="false" />
+            <line number="201" hits="1" branch="false" />
+            <line number="202" hits="1" branch="false" />
+            <line number="203" hits="1" branch="false" />
+            <line number="204" hits="1" branch="false" />
+            <line number="205" hits="1" branch="false" />
+            <line number="206" hits="1" branch="false" />
+            <line number="207" hits="1" branch="false" />
+            <line number="208" hits="1" branch="false" />
+            <line number="209" hits="1" branch="false" />
+            <line number="210" hits="1" branch="false" />
+            <line number="212" hits="1" branch="false" />
+            <line number="216" hits="1" branch="false" />
+            <line number="217" hits="1" branch="false" />
+            <line number="218" hits="1" branch="false" />
+            <line number="219" hits="1" branch="false" />
+            <line number="221" hits="1" branch="false" />
+            <line number="225" hits="1" branch="false" />
+            <line number="226" hits="1" branch="false" />
+            <line number="227" hits="1" branch="false" />
+            <line number="228" hits="1" branch="false" />
+            <line number="230" hits="1" branch="false" />
+            <line number="234" hits="1" branch="false" />
+            <line number="235" hits="1" branch="false" />
+            <line number="236" hits="1" branch="false" />
+            <line number="237" hits="1" branch="false" />
+            <line number="239" hits="1" branch="false" />
+            <line number="244" hits="1" branch="false" />
+            <line number="245" hits="1" branch="false" />
+            <line number="246" hits="1" branch="false" />
+            <line number="247" hits="1" branch="false" />
+            <line number="249" hits="1" branch="false" />
+            <line number="253" hits="1" branch="false" />
+            <line number="254" hits="1" branch="false" />
+            <line number="255" hits="1" branch="false" />
+            <line number="256" hits="1" branch="false" />
+            <line number="257" hits="1" branch="false" />
+            <line number="259" hits="1" branch="false" />
+            <line number="263" hits="3" branch="false" />
+            <line number="264" hits="1" branch="false" />
+            <line number="265" hits="4" branch="false" />
+            <line number="266" hits="1" branch="false" />
+            <line number="267" hits="2" branch="false" />
+            <line number="268" hits="1" branch="false" />
+            <line number="269" hits="5" branch="false" />
+            <line number="270" hits="1" branch="false" />
+            <line number="271" hits="1" branch="false" />
+            <line number="272" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

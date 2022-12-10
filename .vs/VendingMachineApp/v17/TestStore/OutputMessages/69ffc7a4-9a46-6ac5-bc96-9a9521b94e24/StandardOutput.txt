@@ -1,0 +1,246 @@
+00:05:04:860 [Verbose]: Added 4 versioned types to 'CommandDefinitionService' from these assemblies: VendingMachineApp
+00:05:04:870 [Verbose]: Added 4 versioned types to 'EventDefinitionService' from these assemblies: VendingMachineApp
+00:05:04:871 [Verbose]: Added 2 versioned types to 'JobDefinitionService' from these assemblies: EventFlow
+00:05:04:887 [Verbose]: Executing command 'InitCommand' with ID 'command-dff35004-bf6a-464d-9d47-16e412f17933' on aggregate 'VendingMachineAggregate'
+00:05:04:893 [Verbose]: Command 'InitCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InitCommand>'
+00:05:04:941 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c'
+00:05:04:969 [Verbose]: Committing event 
+VendingMachineAggregate v1 ==================================
+{
+  "timestamp": "2022-12-11T00:05:04.9373294+01:00",
+  "aggregate_sequence_number": "1",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c",
+  "event_id": "event-6d8b1681-a960-5f68-ad2a-cdcec58b6ae2",
+  "timestamp_epoch": "1670713505",
+  "batch_id": "cdfbcd75-1009-4365-943e-b4e772667a7e",
+  "source_id": "command-dff35004-bf6a-464d-9d47-16e412f17933",
+  "event_name": "InitializedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Tea",
+      "Price": 1.3,
+      "Quantity": 10
+    },
+    {
+      "Id": 2,
+      "Name": "Espresso",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 3,
+      "Name": "Juice",
+      "Price": 1.8,
+      "Quantity": 20
+    },
+    {
+      "Id": 4,
+      "Name": "Chicken soup",
+      "Price": 1.8,
+      "Quantity": 15
+    }
+  ],
+  "WalletCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 100
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 100
+    }
+  ],
+  "InsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:04:983 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,074 seconds
+00:05:04:987 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v1/InitializedEvent:vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c
+00:05:04:993 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c' has version 0 (or none), applying events
+00:05:04:996 [Verbose]: Creating new instance of read model type 'VendingMachineReadModel' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c'
+00:05:05:010 [Debug]: Didn't find any subscribers to 'InitializedEvent'
+00:05:05:015 [Verbose]: Saga types to process for domain event 'InitializedEvent': 
+00:05:05:017 [Verbose]: Execution command 'InitCommand' with ID 'command-dff35004-bf6a-464d-9d47-16e412f17933' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: InitializedEvent, was success: True
+00:05:05:023 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-85e6c8b7-ee39-4761-adc7-115a8baf51ba' on aggregate 'VendingMachineAggregate'
+00:05:05:023 [Verbose]: Command 'InsertCoinCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,InsertCoinCommand>'
+00:05:05:027 [Verbose]: Upgrading 1 events and found these event upgraders to use: 
+00:05:05:029 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c'
+00:05:05:031 [Verbose]: Committing event 
+VendingMachineAggregate v2 ==================================
+{
+  "timestamp": "2022-12-11T00:05:05.0291463+01:00",
+  "aggregate_sequence_number": "2",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c",
+  "event_id": "event-d85fcf83-1fe2-5578-8154-fc32a3a62be3",
+  "timestamp_epoch": "1670713505",
+  "batch_id": "5e44906c-ac71-4c84-a857-4496dc14031a",
+  "source_id": "command-85e6c8b7-ee39-4761-adc7-115a8baf51ba",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "Cent50",
+    "value": 0.5
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 0
+    }
+  ]
+}
+---------------------------------
+00:05:05:031 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,008 seconds
+00:05:05:031 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v2/CoinInsertedEvent:vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c
+00:05:05:031 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c' has version 1 (or none), applying events
+00:05:05:032 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:05:032 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:05:032 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-85e6c8b7-ee39-4761-adc7-115a8baf51ba' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:05:032 [Verbose]: Executing command 'InsertCoinCommand' with ID 'command-a976f02d-7313-4e38-8c75-4adb05837313' on aggregate 'VendingMachineAggregate'
+00:05:05:033 [Verbose]: Upgrading 2 events and found these event upgraders to use: 
+00:05:05:033 [Verbose]: Storing 1 events for aggregate 'VendingMachineAggregate' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c'
+00:05:05:033 [Verbose]: Committing event 
+VendingMachineAggregate v3 ==================================
+{
+  "timestamp": "2022-12-11T00:05:05.0331347+01:00",
+  "aggregate_sequence_number": "3",
+  "aggregate_name": "VendingMachineAggregate",
+  "aggregate_id": "vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c",
+  "event_id": "event-1757344f-36ff-5190-9e22-fb74a55adadb",
+  "timestamp_epoch": "1670713505",
+  "batch_id": "78a97666-bf9d-48bf-88bb-62f3c35ece9a",
+  "source_id": "command-a976f02d-7313-4e38-8c75-4adb05837313",
+  "event_name": "CoinInsertedEvent",
+  "event_version": "1"
+}
+---------------------------------
+{
+  "Coin": {
+    "name": "OneEuro",
+    "value": 1.0
+  },
+  "UpdatedInsertedCoins": [
+    {
+      "Coin": {
+        "name": "Cent10",
+        "value": 0.1
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent20",
+        "value": 0.2
+      },
+      "Quantity": 0
+    },
+    {
+      "Coin": {
+        "name": "Cent50",
+        "value": 0.5
+      },
+      "Quantity": 1
+    },
+    {
+      "Coin": {
+        "name": "OneEuro",
+        "value": 1.0
+      },
+      "Quantity": 1
+    }
+  ]
+}
+---------------------------------
+00:05:05:033 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,001 seconds
+00:05:05:033 [Verbose]: Updating read model 'VendingMachineReadModel' in store 'IInMemoryReadStore<VendingMachineReadModel>' with these events: VendingMachineAggregate v3/CoinInsertedEvent:vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c
+00:05:05:033 [Verbose]: Read model 'VendingMachineApp.ReadModel.Models.VendingMachineReadModel' with ID 'vendingmachine-d51ab3e9-2a3a-41ea-9234-f0174c58608c' has version 2 (or none), applying events
+00:05:05:033 [Debug]: Didn't find any subscribers to 'CoinInsertedEvent'
+00:05:05:033 [Verbose]: Saga types to process for domain event 'CoinInsertedEvent': 
+00:05:05:033 [Verbose]: Execution command 'InsertCoinCommand' with ID 'command-a976f02d-7313-4e38-8c75-4adb05837313' on aggregate 'VendingMachineApp.Domain.VendingMachineAggregate' resulted in these events: CoinInsertedEvent, was success: True
+00:05:05:033 [Verbose]: Executing command 'SellProductCommand' with ID 'command-bb06ae47-d0c3-440b-9f65-a6eef0fcf5c0' on aggregate 'VendingMachineAggregate'
+00:05:05:033 [Verbose]: Command 'SellProductCommand' is resolved by 'ICommandHandler<VendingMachineAggregate,VendingMachineId,IExecutionResult,SellProductCommand>'
+00:05:05:034 [Verbose]: Upgrading 3 events and found these event upgraders to use: 
+00:05:05:035 [Debug]: Execution failed on aggregate 'VendingMachineAggregate', disregarding any events emitted
+00:05:05:035 [Verbose]: Finished execution of 'aggregate-update' after 0 retries and 0,002 seconds
+00:05:05:035 [Verbose]: Execution command 'SellProductCommand' with ID 'command-bb06ae47-d0c3-440b-9f65-a6eef0fcf5c0' on aggregate 'VendingMachineAggregate' did NOT result in any domain events, was success:False
