@@ -16,7 +16,7 @@ using VendingMachineApp.ReadModel.Queries;
 using VendingMachineApp.ReadModel.QueryHandlers;
 using static VendingMachineApp.Domain.Commands.InitCommand;
 
-namespace VendingMachineTests
+namespace VendingMachineTests.IntegrationTests
 {
     public class Tests
     {
@@ -193,7 +193,7 @@ namespace VendingMachineTests
         }
 
         [Test]
-        public async Task CancelPurchase_WhenCalled_ThenInsertCoinsShouldBeEmpty()
+        public async Task CancelPurchase_WhenCalled_ThenReturnInsertCoinsAsChange()
         {
             using (var resolver = EventFlowOptions.New
                        .AddEvents(typeof(CoinInsertedEvent), typeof(PurchaseCanceledEvent), typeof(ProductSoldEvent),
@@ -257,6 +257,17 @@ namespace VendingMachineTests
                     .ConfigureAwait(false);
 
                 vendingMachineReadModel.Should().NotBeNull();
+
+                //Verify ChangeCoins 
+
+                vendingMachineReadModel.ChangeCoins.FirstOrDefault(x => x.Coin == Coin.Cent20.ToString()).Quantity
+                    .Should().Be(0);
+                vendingMachineReadModel.ChangeCoins.FirstOrDefault(x => x.Coin == Coin.Cent50.ToString()).Quantity
+                    .Should().Be(1);
+                vendingMachineReadModel.ChangeCoins.FirstOrDefault(x => x.Coin == Coin.Cent10.ToString()).Quantity
+                    .Should().Be(0);
+                vendingMachineReadModel.ChangeCoins.FirstOrDefault(x => x.Coin == Coin.OneEuro.ToString()).Quantity
+                    .Should().Be(1);
 
                 //Verify InsertedCoins 
 

@@ -28,12 +28,15 @@ namespace VendingMachineApp.ReadModel.Models
 
         public void Apply(IReadModelContext context, IDomainEvent<VendingMachineAggregate, VendingMachineId, CoinInsertedEvent> domainEvent)
         {
+            ChangeCoins = new List<CoinsInfoModel>();
             InsertedCoins = domainEvent.AggregateEvent.UpdatedInsertedCoins.Select(ReadModelMapper.Map).ToList();
         }
 
         public void Apply(IReadModelContext context, IDomainEvent<VendingMachineAggregate, VendingMachineId, PurchaseCanceledEvent> domainEvent)
         {
+            ChangeCoins = InsertedCoins;
             InsertedCoins = domainEvent.AggregateEvent.UpdatedInsertedCoins.Select(ReadModelMapper.Map).ToList();
+
         }
 
         public void Apply(IReadModelContext context, IDomainEvent<VendingMachineAggregate, VendingMachineId, ProductSoldEvent> domainEvent)
@@ -46,6 +49,7 @@ namespace VendingMachineApp.ReadModel.Models
 
         public void Apply(IReadModelContext context, IDomainEvent<VendingMachineAggregate, VendingMachineId, InitializedEvent> domainEvent)
         {
+            ChangeCoins = new List<CoinsInfoModel>();
             AggregateId = domainEvent.AggregateIdentity.Value;
             Products = domainEvent.AggregateEvent.Products.Select(ReadModelMapper.Map).ToList();
             InsertedCoins = domainEvent.AggregateEvent.InsertedCoins.Select(ReadModelMapper.Map).ToList();
